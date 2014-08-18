@@ -115,7 +115,7 @@ public class sample_play_check {
 			  key.sleep(2000);
 			  key.iselement_blank("NATIVE", "xpath=//*[@id='cardmediasubitemvideo_videopreview']", 1,number);
 			  key.sent_text("{ESC}");
-			  key.click_native("xpath=//*[@text='␡' and ../self::*[@id='cardmedia_mini']]");
+			  //key.click_native("xpath=//*[@text='␡' and ../self::*[@id='cardmedia_mini']]");
 			  return true;
 		  }else{
 			  key.sent_text("{ESC}");
